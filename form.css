@@ -1,0 +1,87 @@
+body {
+  background: #333;
+}
+.baground {
+  background: rgb(247, 175, 43);
+  width: 75%;
+  height: 110vh;
+  justify-content: center;
+  display: flex;
+}
+body {
+  margin: 10rem 0;
+  display: flex;
+  justify-content: center;
+}
+.img {
+  justify-content: center;
+  margin-left: -15rem;
+  margin-top: 5rem;
+}
+.belgi {
+  margin-top: 15rem;
+  margin-left: -10rem;
+  background: white;
+  width: 500px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.belgi input {
+  margin-left: 10rem;
+  padding: 1rem 2rem;
+  border: none;
+  border-bottom: 2px solid;
+}
+button {
+  margin: 0rem 9rem;
+  padding: 0.8rem 7rem;
+  background: red;
+  border-radius: 20px;
+  border: none;
+  color: #fff;
+}
+.anasayfa {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  color: #fff;
+}
+.anasayfa {
+  font-size: 2rem;
+  margin-top: 43rem;
+  margin-left: -35rem;
+  border: 1px solid red;
+  background: red;
+  padding: 1rem 2rem;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 680px) {
+  body {
+    background-color: lightgreen;
+    margin: 0;
+  }
+
+  .img {
+    display: none;
+  }
+  .anasayfa,
+  .belgi {
+    margin: 0;
+    text-align: center;
+  }
+  .baground {
+    display: block;
+    background-color: lightgreen;
+    margin: 0;
+  }
+  .anasayfa {
+    margin-left: 6rem;
+  }
+ .belgi {
+    margin: 0rem -5rem ;
+  padding: 1rem -7rem;
+    
+  }
+}

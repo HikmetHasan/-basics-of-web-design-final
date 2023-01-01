@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+}
+body {
+  background: #333;
+  background-image: url(/foto/hi.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  align-items: center;
+  background: #333;
+}
+ul h4 {
+  color: rgb(223, 245, 245);
+}
+ul h1 {
+  font-size: 4rem;
+  color: #fff;
+}
+a {
+  color: rgb(238, 236, 236);
+  text-decoration: none;
+  font-size: 25px;
+}
+.ana {
+  margin: 10rem 0rem;
+  display: flex;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.774);
+  display: flex;
+  justify-content: space-around;
+  padding: 3rem;
+  flex-wrap: wrap;
+  width: 65%;
+  height: 15;
+  border: solid 3px;
+  border-radius: 20px;
+}
+.ana img {
+  mix-blend-mode: multiply;
+}
+.sol {
+  margin: 10rem 0rem;
+  margin-left: 2rem;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.774);
+  justify-content: space-around;
+  padding: 1rem;
+  flex-wrap: wrap;
+  width: 13%;
+  height: 52vh;
+  border: solid 3px;
+  border-radius: 20px;
+  color: black;
+  position: sticky;
+  top: 40px;
+}
+.sol a h6 {
+  color: rgb(4, 4, 4);
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+
+.ana a {
+  color: rgb(110, 108, 253);
+  text-align: center;
+}
+.rif {
+  display: flex;
+}
+img {
+  width: 200px;
+  height: 150px;
+  border-radius: 30px;
+}
+.Karakaşli {
+  font-family: "Rubik Vinyl", cursive;
+}
+.renk li a:hover {
+  color: aqua;
+  font-size: 1.7rem;
+}
+.renk a h1:hover {
+  color: aqua;
+}
+.renk a h4:hover {
+  color: aqua;
+  font-size: 1.7rem;
+}
+.hepsi {
+  min-height: 10vh;
+  background-color: #333;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  align-items: center;
+}
+.ali {
+  display: flex;
+  gap: 2rem;
+}
+.footertext {
+  color: white;
+  font-size: 3rem;
+}
+svg {
+  fill: white;
+  height: 3rem;
+  width: 3rem;
+}
+@media screen and (max-width: 680px) {
+  .rif,
+  .renk {
+    display: block;
+    margin: 0;
+  }
+  .sol {
+    display: none;
+  }
+  .ana  {
+    margin: 0;
+    width: 79%;
+    
+  }
+  .ana a img{
+    height: 100px;
+    width: 100px;
+  }
+}

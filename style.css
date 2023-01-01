@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+}
+img {
+  width: 100%;
+  height: fit-content;
+  height: 50vh;
+}
+body {
+  background: #333;
+}
+#Karakaşli {
+  font-family: "Rubik Vinyl", cursive;
+}
+.renk li a:hover {
+  color: aqua;
+  font-size: 1.7rem;
+}
+.renk a h1:hover {
+  color: aqua;
+}
+.renk a h4:hover {
+  color: aqua;
+  font-size: 1.7rem;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  align-items: center;
+  background: #333;
+}
+ul h4 {
+  color: rgb(228, 247, 247);
+}
+ul h1 {
+  font-size: 4rem;
+  color: #fff;
+}
+a {
+  color: rgb(238, 236, 236);
+  text-decoration: none;
+  font-size: 25px;
+  transition: 0.4s;
+}
+.baba {
+  display: flex;
+  justify-content: space-around;
+  padding: 3rem;
+  flex-wrap: wrap;
+  margin-bottom: 10rem;
+}
+
+.yemek a img {
+  width: 100px;
+  height: 70px;
+  border-radius: 30px;
+}
+h6 {
+  color: #fff;
+}
+video {
+  width: auto;
+  height: 55%;
+}
+.video1 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+h4 {
+  color: #fff;
+}
+.text {
+  margin-top: -15rem;
+  color: white;
+
+  padding: 0 5rem;
+}
+.Food {
+  display: flex;
+  padding: 3rem;
+  justify-content: space-around;
+  margin-top: 1rem;
+}
+video {
+  width: 100%;
+  height: 60%;
+}
+.kkkkk {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+.food-1 {
+  margin-top: -15rem;
+  color: white;
+  padding: 0 5rem;
+}
+.food-2 {
+  margin-top: -6rem;
+  margin-left: 10rem;
+  color: white;
+  padding: 0 5rem;
+}
+.food-3 {
+  margin-top: -6rem;
+  margin-left: 21rem;
+  color: white;
+  padding: 0 5rem;
+}
+#bg-1 {
+  object-fit: cover;
+}
+.hepsi {
+  min-height: 10vh;
+  background-color: #333;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  align-items: center;
+}
+.ali {
+  display: flex;
+  gap: 2rem;
+}
+.footertext {
+  color: white;
+  font-size: 3rem;
+  margin-top: 15rem;
+}
+svg {
+  fill: white;
+  height: 3rem;
+  width: 3rem;
+}
+.renk {
+  display: flex;
+}
+
+@media screen and (max-width: 600px) {
+  .renk {
+    display: block;
+    text-align: center;
+  }
+  svg {
+    fill: white;
+    height: 1rem;
+    width: 1rem;
+  }
+  .footertext {
+    color: white;
+    font-size: 1.5rem;
+    overflow: hidden;
+  }
+
+
+}
+@media screen and (max-width: 900px) {
+  .renk {
+    display: block;
+    text-align: center;
+    justify-content: center;
+  }
+  .Food {
+    flex-wrap: wrap;
+  }
+  svg {
+    fill: white;
+    height: 1rem;
+    width: 1rem;
+  }
+  .footertext {
+    color: white;
+    font-size: 0.5rem;
+    font-weight: 100;
+  }
+  .video1 {
+    display: block;
+    margin-bottom: 20rem;
+  }
+  .kkkkk {
+    display: block;
+    margin-bottom: 7rem;
+    width: 500px;
+    height: 500px; 
+  }
+  .yemek {
+    margin: 0;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+  }
+
+}
